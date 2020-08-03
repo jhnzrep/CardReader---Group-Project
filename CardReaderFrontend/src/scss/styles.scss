@@ -1,0 +1,384 @@
+$base-color:#242582; 
+$table-header: #242582;
+$table-header-border: #242582;
+$table-border: #d9d9d9;
+$row-bg: #f4f2f1;
+
+div {
+    box-sizing: border-box;
+  }
+body{
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+a{
+    color: #fff;
+}
+/////// H E A D E R  //////
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: #242582;
+    position: sticky;
+    top: 0;
+    color: white;
+}
+
+.rooms{width: 300px;}
+
+.rooms button.btn{
+    position: relative;
+    margin-left: 100px;
+    border:none;
+    margin-top:5px;
+    background-color: transparent;
+}
+
+.dropdown-rooms{
+  margin-left: 120px;
+}
+
+.dropdown .dropdown-menu {
+
+}
+
+.logo{
+   
+    top: 0%;
+    color: white;
+}
+
+.logo h1 {font-size: 32px;}
+
+.logout{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    margin-left: 50px;
+    display: inline;
+}
+
+.storage li a {
+  color: white;
+}
+.storage li {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.logout button {
+    display: inline;
+}
+
+.logout button span {
+    height: 30px;
+    width: 30px;
+    display: inline;
+}
+
+i{
+ 
+    color: white;
+    margin:0;
+}
+.logout p {color:white;} logout img.logout_image {color: white;} .logout span.text{color: white; margin-left: 5px;} a.brand{color:white}
+
+
+////// SECTION //////
+
+.search-box{
+    margin-top: 50px;
+}
+
+.section .room_name {
+    margin-top:50px;
+}.table-container {
+    display: block;
+    margin: 2em auto;
+    width: 100%;
+  }
+
+  
+  .flag-icon {
+    margin-right: 0.1em;
+  }
+  
+  .flex-table {
+    display: flex;
+    flex-flow: row wrap;
+    border-left: solid 1px $table-border;
+    transition: 0.5s;
+
+    &.row{
+        margin:0;
+    }
+
+    &.row:hover{
+      
+        background: #F5F5F5;
+        transition: 500ms;
+          }
+
+    &:first-of-type {
+      border-top: solid 1px $table-header-border;
+      border-left: solid 1px $table-header-border;
+    }
+    &:first-of-type .flex-row {
+
+      background: $table-header;
+      color: white;
+      border-color: $table-header-border;
+    }
+    &.row:nth-child(odd) .flex-row {
+      background: $row-bg;
+    }
+  
+  }
+
+  
+  .flex-row {
+    width: calc(100% / 4);
+    text-align: center;
+    padding: 0.5em 0.5em;
+    margin: 0;
+    border-right: solid 1px $table-border;
+    border-bottom: solid 1px $table-border;
+
+
+  }
+  
+  .rowspan {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .column {
+    display: flex;
+    flex-flow: column wrap;
+    width: 75%;
+    padding: 0;
+    .flex-row {
+      display: flex;
+      flex-flow: row wrap;
+      width: 100%;
+      padding: 0;
+      border: 0;
+      border-bottom: solid 1px $table-border;
+  
+    }
+  }
+  
+input{
+  width: 100%;
+}
+
+.card-first {
+  margin-top:30px;
+}
+
+.card a{
+  color:white;
+}
+
+#accordion .card-header{
+  background-color: #659DBD;
+}
+  .flex-cell {
+    width: calc(100% / 3); //1px = border right
+    text-align: center;
+    padding: 0.5em 0.5em;
+    border-right: solid 1px $table-border;
+    //flex: 1 1 33.3%;
+    &:last-child {
+      // border-right: 0;
+    }
+  }
+  
+  table{
+    margin-top: 50px;
+  }
+
+  thead tr {
+    background-color: #242582;
+    color: white; 
+  }
+
+  #googleMap{
+    padding: 0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #map-card-body{
+    margin: 0;
+    padding: 0;
+  }
+
+  table span.edit {
+    display: inline;
+  }
+
+table  i {
+  font-size: 16px;
+  color: black;
+}
+
+
+table span.edit {margin-right: 20px; margin-left: 30px;}
+
+table button 
+{
+ 
+  background-color:transparent;
+  border-color: transparent;
+}
+
+table button:hover{background-color: rgba(0, 0, 0, 0.1); transition-duration: .4s;}
+
+.pagination {
+    display: inline-block;
+    margin-top: 50px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  // Footer
+
+    
+footer{
+ 
+    background-color: $base-color;
+    clear: both;
+    position: relative;
+    height: 120px;
+    margin-top: 112px; 
+}
+
+
+footer .footer-text {
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+// Responsive
+
+
+
+@media all and (max-width: 767px) {
+    .flex-row {
+      width: calc(100% / 3); //1px = border right
+      
+     &.first {
+       width: 100%;
+     }
+    }
+  
+    .column {
+      width: 100%;
+    }
+  }
+  
+  @media all and (max-width: 430px) {
+    
+    .flex-table {
+      .flex-row {
+        border-bottom: 0;
+      }
+      .flex-row:last-of-type {
+        border-bottom: solid 1px $table-border;
+      }
+    }
+    
+    .header {
+      .flex-row {
+        border-bottom: solid 1px;
+      }
+    }
+    
+    .flex-row {
+      width: 100%; //1px = border right
+      
+     &.first {
+       width: 100%;
+       border-bottom: solid 1px $table-border;
+     }
+    }
+  
+    .column {
+      width: 100%;
+      .flex-row {
+        border-bottom: solid 1px $table-border;
+      }
+    }
+  
+    .flex-cell {
+      width: 100%; //1px = border right
+    }
+  }
+
+  @media (max-width: 992px)
+  {
+    .navbar-expand-lg .navbar-collapse {
+      background-color: $base-color;
+      display: inline;
+    }
+
+    .navbar-expand-lg .navbar-collapse ul {
+      background-color: $base-color;
+      display: inline;
+    }
+
+    .logout {
+      position: relative ;
+      top: 0;
+      left: 0;
+       margin-left: 0;
+      display: inline; 
+  }
+
+
+  .dropdown-rooms{
+    margin-left: 10px;
+  }
+  
+  .room_name h1{
+    margin-top:70px;
+  }
+
+  .storage li {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  .brand {
+    display: none;
+  }
+  .nav-link a
+  {
+    margin-left: 0;
+  }
+}
+

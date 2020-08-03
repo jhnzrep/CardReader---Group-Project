@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardReaderAPI", "CardReaderAPI\CardReaderAPI.csproj", "{3AEC91AC-F671-4359-90CC-29E7BA59807E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AEC91AC-F671-4359-90CC-29E7BA59807E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEC91AC-F671-4359-90CC-29E7BA59807E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEC91AC-F671-4359-90CC-29E7BA59807E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEC91AC-F671-4359-90CC-29E7BA59807E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F52DDDF-7A61-45D2-9C13-39D232DD8C8D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,41 @@
+{
+  "name": "webpacktypescriptscss",
+  "version": "1.0.0",
+  "description": "A starter template for webdevelopment",
+  "main": "index.js",
+  "scripts": {
+    "webpack:dev": "node_modules\\.bin\\webpack --mode=development",
+    "webpack:prod": "node_modules\\.bin\\webpack --mode=production",
+    "watch": "node_modules\\.bin\\webpack --mode=development --watch",
+    "serve": "node_modules\\.bin\\http-server dist/ -g -o"
+  },
+  "author": "Ebbe Vang, evang.dk",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/googlemaps": "^3.38.1",
+    "@types/jquery": "^3.3.31",
+    "browser-sync": "^2.24.6",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^1.0.0",
+    "extract-loader": "^2.0.1",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "source-map": "^0.7.3",
+    "style-loader": "^0.22.1",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@types/datatables.net-select": "^1.2.6",
+    "axios": "^0.19.0",
+    "datatables.net": "^1.10.20",
+    "datatables.net-dt": "^1.10.20",
+    "datatables.net-responsive": "^2.2.3",
+    "datatables.responsive.typings": "^1.0.3",
+    "jquery": "^3.4.1",
+    "paginationjs": "^2.1.5"
+  }
+}
